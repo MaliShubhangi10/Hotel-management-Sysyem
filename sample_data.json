@@ -1,0 +1,16 @@
+{
+  "rooms": [
+    {
+      "room_number": "101",
+      "room_type": "Single",
+      "price": 1200,
+      "status": "available"
+    },
+    {
+      "room_number": "102",
+      "room_type": "Double",
+      "price": 2000,
+      "status": "available"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Add Room</h2>
+<form method="post">
+  <label>Room Number: <input name="number" required></label><br>
+  <label>Room Type: <input name="rtype" required></label><br>
+  <label>Price: <input name="price" type="number" required></label><br>
+  <label>Status:
+    <select name="status">
+      <option value="available">Available</option>
+      <option value="booked">Booked</option>
+    </select>
+  </label><br>
+  <button type="submit">Add Room</button>
+</form>
+{% endblock %}

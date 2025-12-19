@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>All Rooms</h2>
+<a href="{{ url_for('add_room') }}">Add Room</a>
+<table>
+  <tr><th>ID</th><th>Number</th><th>Type</th><th>Price</th><th>Status</th></tr>
+  {% for r in rooms %}
+  <tr>
+    <td>{{ r.id }}</td><td>{{ r.room_number }}</td><td>{{ r.room_type }}</td><td>₹{{ r.price }}</td><td>{{ r.status }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}

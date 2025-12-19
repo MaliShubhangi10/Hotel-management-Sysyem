@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Admin Dashboard</h2>
+<p>Total rooms: {{ rooms_count }}</p>
+<p>Total bookings: {{ bookings_count }}</p>
+<ul>
+  <li><a href="{{ url_for('admin_rooms') }}">Manage Rooms</a></li>
+  <li><a href="{{ url_for('admin_bookings') }}">View Bookings</a></li>
+  <li><a href="{{ url_for('admin_logout') }}">Logout</a></li>
+</ul>
+{% endblock %}

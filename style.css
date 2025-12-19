@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; }
+header { background:#004a7f; color:white; padding:10px 20px; }
+header a { color:white; text-decoration:none; }
+main { padding:20px; }
+.room-card { border:1px solid #ddd; padding:10px; margin:8px 0; border-radius:6px; }
+.flashes { list-style:none; padding:0; }
+.flashes li { margin:6px 0; padding:6px; border-radius:4px; }
+.success { background:#d4edda; }
+.danger { background:#f8d7da; }
+.warning { background:#fff3cd; }
